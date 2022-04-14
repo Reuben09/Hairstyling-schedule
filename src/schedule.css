@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap"); /* .....global styling...... */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #01040b;
+  padding: 5rem 10rem;
+  color: #c5c4c4;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.policy-container {
+  background-color: #222222;
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 1rem 5rem;
+  margin-bottom: 2rem;
+}
+.background-schedule {
+  background-color: #e4e2e2;
+  color: rgb(249, 72, 84);
+  width: 40%;
+  margin-bottom: 0.5rem;
+}
+ul {
+  list-style-type: square;
+}
+@media (max-width: 999px) {
+  body {
+    background-color: #01040b;
+    padding: 4rem 3rem;
+    color: #c5c4c4;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  .background-schedule {
+    background-color: #e4e2e2;
+    color: rgb(249, 72, 84);
+    width: 70%;
+    margin-bottom: 0.5rem;
+  }
+  .policy-container {
+    background-color: #222222;
+    font-family: "Kumbh Sans", sans-serif;
+    padding: 1rem 3rem;
+  }
+}
+@media (max-width: 574px) {
+  .policy-container {
+    background-color: #222222;
+    font-family: "Kumbh Sans", sans-serif;
+    padding: 1rem 1.5rem;
+  }
+  body {
+    background-color: #01040b;
+    padding: 2rem 1rem;
+    color: #c5c4c4;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+}
+.button-container button {
+  padding: 0.7rem 1.6rem;
+  font-size: 1rem;
+  background-color: rgb(249, 72, 84);
+  border-radius: 0.2rem;
+  border: none;
+  color: #fefefe;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.whatsapp-btn button {
+  padding: 0.7rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  border: none;
+  color: #fefefe;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  background-color: #24cc63;
+}
